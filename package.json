@@ -1,0 +1,15 @@
+{
+    "name": "blockchain-iot-security",
+    "description": "Flows for BlockChain IOT POC",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-file-generator": "1.0.0",
+        "node-red-dashboard": "2.9.7"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "blockchain_iot_security.json",
+            "credentialsFile": "blockchain_iot_security_cred.json"
+        }
+    }
+}
